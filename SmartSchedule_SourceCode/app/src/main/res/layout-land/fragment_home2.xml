@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/k">
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.93">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView4"
+            android:layout_gravity="center_horizontal" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/textView80"
+        android:layout_gravity="center_vertical"
+        android:background="#ff00baba" />
+
+    <TextView
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/textView79"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.93"
+        android:background="#ff00baba" />
+
+    <FrameLayout
+        android:layout_width="62dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="47dp"
+            android:id="@+id/button27"
+            android:background="@drawable/plus"
+            android:layout_gravity="center_horizontal|top"
+            android:onClick="toDores" />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/button34"
+            android:layout_gravity="center_horizontal|bottom"
+            android:background="@drawable/cal"
+            android:onClick="showCalendar" />
+    </FrameLayout>
+
+</LinearLayout>

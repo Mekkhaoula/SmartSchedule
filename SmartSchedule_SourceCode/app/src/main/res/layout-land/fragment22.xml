@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/l">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:weightSum="1"
+        android:background="#a3000000">
+
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ff00baba" />
+
+        <Button
+            android:layout_width="109dp"
+            android:layout_height="60dp"
+            android:text="Annexe 1"
+            android:id="@+id/button21"
+            android:textColor="#ff00baba"
+            android:layout_weight="0.33"
+            android:background="#00ff3053"
+            android:onClick="frag2LocAnnexe1" />
+
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="#ff00baba"></FrameLayout>
+
+        <Button
+            android:layout_width="109dp"
+            android:layout_height="60dp"
+            android:text="Annexe 2"
+            android:id="@+id/button22"
+            android:textColor="#ff00baba"
+            android:layout_weight="0.33"
+            android:background="#00ff3053"
+            android:onClick="frag2LocAnnexe2" />
+
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="#ff00baba"></FrameLayout>
+
+        <Button
+            android:layout_width="109dp"
+            android:layout_height="60dp"
+            android:text="Centrale"
+            android:id="@+id/button23"
+            android:textColor="#ff00baba"
+            android:background="#00ff3053"
+            android:onClick="frag2LocCentrale"
+            android:layout_weight="0.33" />
+
+        <FrameLayout
+            android:layout_width="2dp"
+            android:layout_height="60dp"
+            android:background="#ff00baba"></FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="right"
+        android:background="#ff00baba"></FrameLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView5"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

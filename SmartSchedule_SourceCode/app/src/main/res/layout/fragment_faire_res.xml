@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salle :"
+            android:id="@+id/textView"
+            android:layout_gravity="left|center_vertical"
+            android:textColor="#ff00baba" />
+
+        <Spinner
+            android:layout_width="134dp"
+            android:layout_height="50dp"
+            android:id="@+id/spinnersalle"
+            android:layout_gravity="center" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/textView63"
+        android:background="#ff00baba" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creneaux"
+        android:id="@+id/textView54"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ff00baba" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listcreneaux"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

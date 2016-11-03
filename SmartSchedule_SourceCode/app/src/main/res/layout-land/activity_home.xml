@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+android:id="@+id/kkk"
+    android:background="@drawable/f"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#a3000000"
+        android:onClick="tf"
+        android:alpha="0.85">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smart Schedule"
+            android:id="@+id/textView15"
+            android:layout_gravity="center"
+            android:textSize="30dp"
+            android:textColor="#ff00baba" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_weight="0.08"
+        android:alpha="0.85"
+        android:id="@+id/g"
+        android:background="#a3000000"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button2"
+            android:background="@drawable/riight"
+            android:onClick="toRight" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button3"
+            android:text="Connexion"
+            android:layout_weight="1.03"
+            android:background="#ff00baba" />
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:id="@+id/button5"
+            android:background="@drawable/leeft"
+            android:onClick="toLeft" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff00baba"></LinearLayout>
+
+
+    <android.support.v4.view.ViewPager
+        xmlns:tools="http://schemas.android.com/tools" android:id="@+id/pager"
+        android:layout_width="match_parent" android:layout_height="160dp"
+        tools:context=".MainActivity"
+        android:background="#70110306"
+        android:alpha="0.85"
+        android:layout_weight="0.84" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#ff00baba" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:text="Smart Schedule"
+        android:id="@+id/textView59"
+        android:layout_gravity="center_horizontal"
+        android:textSize="30dp"
+        android:background="#ff00baba" />
+
+
+</LinearLayout>
+
+
+
+
+</android.support.v4.widget.DrawerLayout>

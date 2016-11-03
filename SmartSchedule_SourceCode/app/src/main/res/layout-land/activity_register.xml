@@ -1,0 +1,248 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fsr.smartschedule.register"
+    android:id="@+id/g"
+    android:background="@drawable/ii">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:alpha="0.85"
+        android:background="#ff060102">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:alpha="0.75"
+            android:background="#ff3a3a3e"
+            android:orientation="vertical"
+            android:weightSum="1"
+            android:id="@+id/non">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.62">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SmartSchedule"
+                    android:id="@+id/textView3"
+                    android:layout_gravity="center"
+                    android:textColor="#00baba"
+                    android:textColorHighlight="#00baba"
+                    android:textColorHint="#00baba"
+                    android:textColorLink="#00baba"
+                    android:textIsSelectable="true"
+                    android:textSize="25dp" />
+
+            </FrameLayout>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/scrollView"
+                android:layout_weight="0.62"/>
+
+            <FrameLayout
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="#ffeff7f6">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="283dp"
+                    android:layout_gravity="left"
+                    android:weightSum="1"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/mmmmmmmmmmmmmmmmmmmmmmm"
+                        android:layout_gravity="center"
+                        android:weightSum="1"
+                        android:background="#ff797878"
+                        android:alpha="0.85">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/imageView5"
+                            android:background="@drawable/loogin" />
+
+                        <EditText
+                            android:layout_width="227dp"
+                            android:layout_height="37dp"
+                            android:hint="Nom Complet"
+                            android:id="@+id/name"
+                            android:background="#ff6e6e6e"
+                            android:alpha="0.85"/>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView10"
+                        android:background="#ff3a3a3e"
+                        android:autoText="false"
+                        android:alpha="0.85"
+                        />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayoutt"
+                        android:weightSum="1"
+                        android:background="#ff828a8c"
+                        android:layout_gravity="center_horizontal">
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/imageView66"
+                            android:background="@drawable/email" />
+
+                        <EditText
+                            android:layout_width="227dp"
+                            android:layout_height="match_parent"
+                            android:hint="Email"
+                            android:id="@+id/email"
+                            android:layout_gravity="center_horizontal|right"
+                            android:background="#ff6e6e6e"
+                            android:alpha="0.85" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView11"
+                        android:background="#ff3a3a3e"
+                        android:autoText="false"
+                        android:alpha="0.85" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout2"
+                        android:weightSum="1"
+                        android:background="#ff797878"
+                        android:alpha="0.85" >
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/imageView7"
+                            android:background="@drawable/fel" />
+
+                        <EditText
+                            android:layout_width="217dp"
+                            android:layout_height="37dp"
+                            android:hint="Mot de passe"
+                            android:id="@+id/mdp1"
+                            android:background="#ff6e6e6e"
+                            android:alpha="0.85" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView12"
+                        android:background="#ff3a3a3e"
+                        android:autoText="false"
+                        android:alpha="0.85" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout3"
+                        android:weightSum="1"
+                        android:background="#ff828a8c">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/imageView8"
+                            android:background="@drawable/fel" />
+
+                        <EditText
+                            android:layout_width="217dp"
+                            android:layout_height="match_parent"
+                            android:hint="Confirmer mot de passe"
+                            android:id="@+id/mdp2"
+                            android:layout_gravity="center_horizontal|right"
+                            android:background="#ff6e6e6e"
+                            android:alpha="0.85" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView13"
+                        android:background="#ff3a3a3e"
+                        android:autoText="false"
+                        android:alpha="0.85" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="266dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/linearLayout4"
+                        android:weightSum="1"
+                        android:background="#ff828a8c">
+
+                        <ImageView
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:id="@+id/imageView9"
+                            android:background="@drawable/dept" />
+
+                        <Spinner
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/spinner" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView44"
+                android:layout_gravity="center_horizontal" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="34dp"
+                android:text="S&apos;inscrire"
+                android:id="@+id/buttonn"
+                android:layout_gravity="center_horizontal"
+                android:background="#00000a0a"
+                android:alpha="0.85"
+                android:textColor="#00baba"
+                android:onClick="envoieDemande" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView55"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.32" />
+
+
+        </LinearLayout>
+        </RelativeLayout>
+</RelativeLayout>

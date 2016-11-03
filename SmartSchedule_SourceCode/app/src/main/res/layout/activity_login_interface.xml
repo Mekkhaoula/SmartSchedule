@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.75"
+        android:background="#ff3a3a3e"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/oui">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.31">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:id="@+id/button4"
+                android:layout_gravity="right|top"
+                android:background="@drawable/sweethome"
+                android:onClick="toHome" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SmartSchedule"
+                android:id="@+id/textView2"
+                android:layout_gravity="center"
+                android:textColor="#ff00baba"
+                android:textColorHighlight="#00baba"
+                android:textColorHint="#00baba"
+                android:textColorLink="#00baba"
+                android:textIsSelectable="true"
+                android:textSize="25dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="318dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#ffeff7f6">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/kkkkkkkkkkkkkkkkkk"
+                    android:layout_gravity="center"
+                    android:weightSum="1"
+                    android:background="#ff797878"
+                    android:alpha="0.85">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageView4"
+                        android:background="@drawable/email" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:hint="  Email"
+                        android:id="@+id/UserName"
+                        android:background="#ff6e6e6e"
+                        android:alpha="0.85"/>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:background="#ff3a3a3e"
+                    android:autoText="false"
+                    android:alpha="0.85"
+                     />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="310dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout"
+                    android:weightSum="1"
+                    android:background="#ff828a8c"
+                    android:layout_gravity="center_horizontal">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/imageView6"
+                        android:background="@drawable/fel" />
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="37dp"
+                        android:hint="   Mot de passe"
+                        android:id="@+id/mdp"
+                        android:layout_gravity="center_horizontal|right"
+                        android:background="#ff6e6e6e"
+                        android:alpha="0.85" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se connecter"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:background="#00000a0a"
+            android:alpha="0.85"
+            android:textColor="#00baba"
+            android:onClick="toHome2"
+            android:layout_weight="0.09" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.32" />
+
+        <FrameLayout
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="toRegister"
+            android:id="@+id/l">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/imageView3"
+                android:layout_gravity="left"
+                android:background="@drawable/neww" />
+
+            <TextView
+                android:layout_width="74dp"
+                android:layout_height="55dp"
+                android:text="Créer un nouveau compte"
+                android:id="@+id/textView9"
+                android:layout_gravity="center_horizontal|top"
+                android:textSize="15dp"
+                android:textColor="#fff9fdff" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

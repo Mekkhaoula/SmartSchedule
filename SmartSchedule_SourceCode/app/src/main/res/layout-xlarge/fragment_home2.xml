@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swipe_container"
+        android:layout_width="match_parent"
+        android:layout_height="554dp"
+        android:layout_weight="1.08">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView4"
+            android:layout_gravity="center_horizontal" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/n"
+        android:gravity="center"
+        android:onClick="toDores">
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button32"
+            android:background="@drawable/plus" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faire une nouvelle reservation"
+            android:id="@+id/textView78"
+            android:textColor="#ff00baba" />
+    </LinearLayout>
+</LinearLayout>
